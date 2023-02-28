@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Page title</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="box">
+
+            <form action="#" method="get">
+                <p class="title">
+                    Item Price
+                </p>
+
+                <span id="doller">$</span>
+                <input onkeyup="calculateBill()" type="number" id="price" placeholder="0.00" maxlength="6" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                type="number"
+                >
+
+                <p class="title">
+                    Delivery
+                </p>
+
+                <span id="doller">$</span>
+                <input onkeyup="calculateBill()" type="number" id="delivery" placeholder="0.00" maxlength="6"oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+ >
+            </form>
+
+            <div id="container2">
+                <div id="innerbox1">
+
+                    <p class="title">
+                        No. of items
+                    </p>
+                    <br>
+                    <button onclick="decreaseItems()" id="sub">-</button>
+                    <span class="title" id="numOfItems">1</span>
+                    <button onclick="increaseItems()" id="add">+</button>
+
+                </div>
+                <div id="innerbox2">
+
+                    <p class="title">
+                        Total
+                    </p>
+
+                    <p class="title" id="total">
+                        $0.00
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*
+
+#1B5E20
+#388E3C
+
+#2C113A
+#4C1D75
+
+
+*/
+
+body{
+    font-family: Sans-Serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    background: linear-gradient(90deg, #2C113A, #4C1D75);
+    border-radius: 5px;
+    width: 700px;    
+    
+}
+
+#box{
+    margin : 10%;
+    
+}
+
+.title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+form {
+    position: relative;
+}
+
+#doller {
+    position: absolute;
+    color: #2C113A;
+    font-weight: bold;
+    font-size: 1.3rem;
+    left: 5px;
+    padding-top: 7px;
+    
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    border-radius:5px;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2C113A;
+}
+
+#container2{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 20%;
+    color: 2C113A;
+    font-weight: bold;
+    
+}
+
+span, title{
+    margin: 0 3px;
+}
